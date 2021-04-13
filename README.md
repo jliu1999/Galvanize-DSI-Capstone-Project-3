@@ -29,7 +29,7 @@ Adience Benchmark Gender And Age Classification
 
 https://www.kaggle.com/ttungl/adience-benchmark-gender-and-age-classification
 
-This is a image classification project. It takes an face image and find out the person's sex and age. 
+This is a image classification project. It takes an face image and find out the person's gender and age. 
 
-I also plan to build varies Neural Network models, and compare their performance. If I have enough time, I will also try models other than Neural Network. This one is good for demonstration. I can take pictures during the presentation and classify the sex and age.
+I also plan to build varies Neural Network models, and compare their performance. If I have enough time, I will also try models other than Neural Network. This one is good for demonstration. I can take pictures during the presentation and classify the gender and age.
 
