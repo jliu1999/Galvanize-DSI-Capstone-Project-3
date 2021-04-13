@@ -7,9 +7,9 @@
 https://www.kaggle.com/borismarjanovic/price-volume-data-for-all-us-stocks-etfs
 
 Plan:
-1, Build a LSTM model to predict next day price of a stock.
-2, Develop a web application using Flask that deploy the LSTM model.
-3, Buy/sell stocks according to the suggestion by LSTM model, and record the transaction in an SQL database.
+1. Build a LSTM model to predict next day price of a stock.
+2. Develop a web application using Flask that deploy the LSTM model.
+3. Buy/sell stocks according to the suggestion by LSTM model, and record the transaction in an SQL database.
 
 Please note, this is just a simulation to help understand the whole workflow. Will not incorporate real-time stock price information. Maybe it's too much for a one-week project? Do I have enough time to complete???
 
