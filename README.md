@@ -1,35 +1,30 @@
-# Galvanize-DSI-Capstone-Project-3
+# **Galvanize-DSI-Capstone-Project-3**
 
-### Proposal 1
+## **Mechanisms of Action (MoA) Prediction**
 
-**Huge Stock Market Dataset**
+This project is a Kaggle competition organized by MIT and Harvard. The goal is to advance drug development through MoA prediction.
 
-https://www.kaggle.com/borismarjanovic/price-volume-data-for-all-us-stocks-etfs
+MoA represents the Mechanism of Action of a drug. It classifies a drug’s type based on its underlying biological mechanism to treat a disease. 
 
-Plan:
-1. Build a LSTM model to predict next day price of a stock.
-2. Develop a web application using Flask that deploy the LSTM model.
-3. Buy/sell stocks according to the suggestion by LSTM model, and record the transaction in an SQL database.
+The approach is to treat human cells with a drug and then analyze the cellular responses, such as gene expression or cell viability patterns, then classify its MoA based on these measurements. It will in turn help scientists with the drug discovery process.
 
-Please note, this is just a simulation to help understand the whole workflow. Will not incorporate real-time stock price information. Maybe it's too much for a one-week project? Do I have enough time to complete???
+## **Data Source**
 
-### Proposal 2
+[link](**https://www.kaggle.com/c/lish-moa**)
 
-**Mechanisms of Action (MoA) Prediction**
 
-https://www.kaggle.com/c/lish-moa
+## **My Objective** 
 
-This is a Kaggle competetion. It helps study the Mechanism of Action (MoA) of a drug. The task is to develop an algorithm that automatically classifies a drug into multi-label MoA classes.
+Build all kinds of classification models and compare their performance.
 
-I plan to build varies Neural Network models, and compare their performance. If I have enough time, I will also try models other than Neural Network. My previous two capstone projects are all related to healthcare problem. So this one may be a good choice for me too. I intend to find jobs in healthcare field in the future because my previous career was related to biomedical research. 
+## **The challenges**
 
-### Proposal 3
+1. Since a drug can belong to a single, or multiple, or even several tens of MoA types, this project is a multi-label classification problem. There are as many as 206 labels in total. 
+2. The competition required to use a custom metric to evaluate the accuracy of the model, namely the average value of the log loss function. The formula for calculating the log loss was provided.
+3. Many of the features are highly correlated to each other.
 
-Adience Benchmark Gender And Age Classification
+**(Please see the PowerPoint slides and all the jupyter notebooks for codes and details)**
 
-https://www.kaggle.com/ttungl/adience-benchmark-gender-and-age-classification
 
-This is a image classification project. It takes an face image and find out the person's gender and age. 
 
-I also plan to build varies Neural Network models, and compare their performance. If I have enough time, I will also try models other than Neural Network. This one is good for demonstration. I can take pictures during the presentation and classify the gender and age.
 
