@@ -1,6 +1,9 @@
 # **Galvanize-DSI-Capstone-Project-3**
 
+
 ## **Mechanisms of Action (MoA) Prediction**
+
+![](images/moa.jpg)
 
 This project is a Kaggle competition organized by MIT and Harvard. The goal is to advance drug development through MoA prediction.
 
@@ -8,14 +11,17 @@ MoA represents the Mechanism of Action of a drug. It classifies a drug’s type 
 
 The approach is to treat human cells with a drug and then analyze the cellular responses, such as gene expression or cell viability patterns, then classify its MoA based on these measurements. It will in turn help scientists with the drug discovery process.
 
+
 ## **Data Source**
 
-[link](**https://www.kaggle.com/c/lish-moa**)
+**[link](https://www.kaggle.com/c/lish-moa)**
+
 
 
 ## **My Objective** 
 
 Build all kinds of classification models and compare their performance.
+
 
 ## **The challenges**
 
