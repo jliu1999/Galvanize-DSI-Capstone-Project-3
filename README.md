@@ -11,10 +11,11 @@ MoA represents the Mechanism of Action of a drug. It classifies a drug’s type 
 
 The approach is to treat human cells with a drug and then analyze the cellular responses, such as gene expression or cell viability patterns, then classify its MoA based on these measurements. It will in turn help scientists with the drug discovery process.
 
+The task is to use provided training dataset to develop a model that automatically labels any new drug as one or more MoA types. 
 
 ## **Data Source**
 
-**[link](https://www.kaggle.com/c/lish-moa)**
+**[https://www.kaggle.com/c/lish-moa](https://www.kaggle.com/c/lish-moa)**
 
 
 
