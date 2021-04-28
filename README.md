@@ -7,9 +7,9 @@
 
 This project is a Kaggle competition organized by MIT and Harvard. The goal is to advance drug development through MoA prediction.
 
-MoA represents the Mechanism of Action of a drug. It classifies a drug’s type based on its underlying biological mechanism to treat a disease. 
+MoA stands for the Mechanisms of Action of a drug. It classifies a drug’s type based on its underlying biological mechanism to treat a disease. 
 
-The approach is to treat human cells with a drug and then analyze the cellular responses, such as gene expression or cell viability patterns, then classify its MoA based on these measurements. It will in turn help scientists with the drug discovery process.
+The approach is to treat human cells with a drug and analyze the cellular responses, such as gene expression or cell viability patterns, then classify its MoA based on these measurements. It will in turn help scientists with the drug discovery process.
 
 The task is to use the provided training dataset to develop a model that automatically labels any new drug as one or more MoA types. 
 
