@@ -37,10 +37,33 @@ Build all kinds of classification models and compare their performances.
 
 ## **EDA**
 
-1. 17860 drug samples, 875 features including gene expression and cell viability pattern in response to drug treatment, 206 labels
-2. 872 features are numerical
-3. Data are pre-normalized, following normal-like distributions
-![image](https://user-images.githubusercontent.com/68295416/116483685-9034d480-a855-11eb-901b-ccbcaafb657a.png)
+1. 17860 drug samples, 875 features including gene expression and cell viability patterns in response to drug treatment, 206 labels
+2. 872 numerical features pre-normalized, following normal-like distributions
+3. Correlation analysis showing that gene expression features are moderately correlated and cell viability features are highly correlated.  
+
+## **Data Wrangling**
+
+1. No need to normalize data again
+2. Data split into 60% train, 20% validation and 20% holdout
+
+## **Baseline Models**
+
+1. Multilayer Perceptron (MLP): 1 input, 1 hidden, 1 output layers, Log-loss 0.0183
+2. 1-D Convolutional Neural Network (1D-CNN):  1 input, 2 hidden, 1 output layers, Log-loss 0.0194
+
+## **Principal Component Analysis (PCA) and Dimensionality Reduction**
+
+Component numbers scanned from 10 to 500 using baseline MLP model on AWS EC2 G4dn instance, 70 principal components chosen for dimensionality reduction
+
+![](images/PCA.jpg)
+
+MLP model improved to a Log-loss of 0.0159.
+
+## **15 Classification Models**
+
+  
+ 
+
 
 
 **(Please see the PowerPoint slides and all the jupyter notebooks for codes and details)**
