@@ -55,7 +55,7 @@ Build all kinds of classification models and compare their performances.
 
 Component numbers scanned from 10 to 500 using baseline MLP model on AWS EC2 G4dn instance, 70 principal components chosen for dimensionality reduction
 
-![](images/PCA.jpg)
+![](images/pca.jpg)
 
 MLP model improved to a Log-loss of 0.0159.
 
