@@ -33,8 +33,14 @@ Build all kinds of classification models and compare their performances.
 
 3. Many of the features are highly correlated to each other.
 
+
+
+## **EDA**
+
+1. 17860 drug samples, 875 features including gene expression and cell viability pattern in response to drug treatment, 206 labels
+2. 872 features are numerical
+3. Data are pre-normalized, following normal-like distributions
+![image](https://user-images.githubusercontent.com/68295416/116483685-9034d480-a855-11eb-901b-ccbcaafb657a.png)
+
+
 **(Please see the PowerPoint slides and all the jupyter notebooks for codes and details)**
-
-
-
-
