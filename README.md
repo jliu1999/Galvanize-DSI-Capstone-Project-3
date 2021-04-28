@@ -61,6 +61,9 @@ MLP model improved to a Log-loss of 0.0159.
 
 ## **15 Classification Models**
 
+![](images/cnn.jpg)
+
+![](images/alltype.jpg)
   
  
 
