@@ -72,7 +72,7 @@ Build all kinds of classification models and compare their performances.
  
 2. Best model MLP: 1 input, 2 hidden, 1 output layers, batch normalization, dropout, Log-loss 0.0156
  
-## **Final Model on Dropout Data
+## **Final Model on Dropout Data**
  
 ![](images/mlp_final.jpg)
  
@@ -89,7 +89,10 @@ Ensembling different models for the prediction
 
 
 
-**(Please see the PowerPoint slides and all the jupyter notebooks for codes and details)**
+<br>
+<br>
+
+**(Please see the [PowerPoint slides](https://github.com/jliu1999/Galvanize-DSI-Capstone-Project-3/blob/main/cap3.pdf) and all the jupyter notebooks for codes and details)**
 
 
 
