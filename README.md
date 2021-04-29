@@ -39,7 +39,7 @@ Build all kinds of classification models and compare their performances.
 
 1. 17860 drug samples, 875 features including gene expression and cell viability patterns in response to drug treatment, 206 labels
 2. 872 numerical features pre-normalized, following normal-like distributions
-3. Correlation analysis showing that gene expression features are moderately correlated and cell viability features are highly correlated.  
+3. Correlation analysis showing that gene expression features are moderately correlated and cell viability features are highly correlated  
 
 ## **Data Wrangling**
 
@@ -53,11 +53,12 @@ Build all kinds of classification models and compare their performances.
 
 ## **Principal Component Analysis (PCA) and Dimensionality Reduction**
 
-Component numbers scanned from 10 to 500 using baseline MLP model on AWS EC2 G4dn instance, 70 principal components chosen for dimensionality reduction
+1. Component numbers scanned from 10 to 500 using baseline MLP model on AWS EC2 G4dn instance
+2. 70 principal components chosen for dimensionality reduction
 
 ![](images/pca.jpg)
 
-MLP model improved to a Log-loss of 0.0159.
+3. MLP model improved to a Log-loss of 0.0159
 
 ## **15 Classification Models**
 
@@ -67,7 +68,7 @@ MLP model improved to a Log-loss of 0.0159.
   
 ## **Hyperparameter Tuning - Hyperopt**
  
-All six model chosen optimized with Hyperopt which adopts Bayesian optimization algorithm.
+All six model chosen optimized with Hyperopt which adopts Bayesian optimization algorithm
  
 Best model MLP: 1 input, 2 hidden, 1 output layers, batch normalization, dropout, Log-loss 0.0156
  
@@ -79,14 +80,13 @@ Log-loss on dropout data: 0.0157
  
 ## **Conclusions**
  
-1. The simple MLP neural network model worked best for my project.
-2. Principle Component Analysis (PCA) and Hyperopt were most helpful. 
+1. The simple MLP neural network model worked best for my project
+2. Principle Component Analysis (PCA) and Hyperopt were most helpful
 
 ## **Future Implementation** 
 
-Ensemble different models for the prediction
-
-
-
+Ensembling different models for the prediction
 
 **(Please see the PowerPoint slides and all the jupyter notebooks for codes and details)**
+
+![](images/logo.jpg)
