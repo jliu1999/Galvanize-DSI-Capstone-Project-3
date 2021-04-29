@@ -65,7 +65,27 @@ MLP model improved to a Log-loss of 0.0159.
 
 ![](images/alltype.jpg)
   
+## **Hyperparameter Tuning - Hyperopt**
  
+All six model chosen optimized with Hyperopt which adopts Bayesian optimization algorithm.
+ 
+Best model MLP: 1 input, 2 hidden, 1 output layers, batch normalization, dropout, Log-loss 0.0156
+ 
+## **Final Model on Dropout Data
+ 
+![](images/mlp_final)
+ 
+Log-loss on dropout data: 0.0157
+ 
+## **Conclusions**
+ 
+1. The simple MLP neural network model worked best for my project.
+2. Principle Component Analysis (PCA) and Hyperopt were most helpful. 
+
+## **Future Implementation** 
+
+Ensemble different models for the prediction
+
 
 
 
