@@ -68,13 +68,13 @@ Build all kinds of classification models and compare their performances.
   
 ## **Hyperparameter Tuning - Hyperopt**
  
-All six model chosen optimized with Hyperopt which adopts Bayesian optimization algorithm
+1. All six model chosen optimized with Hyperopt which adopts Bayesian optimization algorithm
  
-Best model MLP: 1 input, 2 hidden, 1 output layers, batch normalization, dropout, Log-loss 0.0156
+2. Best model MLP: 1 input, 2 hidden, 1 output layers, batch normalization, dropout, Log-loss 0.0156
  
 ## **Final Model on Dropout Data
  
-![](images/mlp_final)
+![](images/mlp_final.jpg)
  
 Log-loss on dropout data: 0.0157
  
@@ -87,6 +87,10 @@ Log-loss on dropout data: 0.0157
 
 Ensembling different models for the prediction
 
+
+
 **(Please see the PowerPoint slides and all the jupyter notebooks for codes and details)**
+
+
 
 ![](images/logo.jpg)
